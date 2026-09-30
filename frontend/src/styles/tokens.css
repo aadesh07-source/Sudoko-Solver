@@ -1,0 +1,39 @@
+:root {
+  /* Color Palette */
+  --paper: #FFF7E8;
+  --surface: #FFFFFF;
+  --ink: #15120E;
+  --sun: #FFB300;
+  --sun-deep: #E59A00;
+  --coral: #FF4B3E;
+  --coral-text: #B8281D;
+  --leaf: #14B87A;
+  --line: rgba(21, 18, 14, 0.14);
+
+  /* Fonts */
+  --font-display: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --font-body: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Elevation */
+  --shadow-hard: 4px 4px 0 var(--ink);
+  --shadow-hard-sm: 2px 2px 0 var(--ink);
+  --shadow-pressed: 1px 1px 0 var(--ink);
+
+  /* Borders */
+  --border-thick: 3px solid var(--ink);
+  --border-medium: 2px solid var(--ink);
+  --border-thin: 1px solid var(--line);
+
+  /* Radii */
+  --radius-panel: 6px;
+  --radius-btn: 6px;
+  --radius-none: 0px;
+
+  /* Spacing */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+}
